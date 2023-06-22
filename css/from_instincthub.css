@@ -1,0 +1,28 @@
+/*
+HTML Footer tags:
+
+<a href="https://instincthub.com/" target="_blank">
+  <div class="from_instincthub">
+    <h3>from</h3>
+    <img src="https://instincthub.com/static/instincthub-logo-.svg" alt="" srcset="">
+  </div>
+</a>
+ */
+
+.from-instincthub{
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  bottom: 20px
+}
+.from-instincthub h3 {
+    color: #2c333a;
+    font-size: 12px;
+}
+.from-instincthub img {
+    width: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
